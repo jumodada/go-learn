@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 //var c = 222
 
@@ -23,9 +26,18 @@ import "fmt"
 //	fmt.Println(xx, yy, zz)
 //}
 
+//func constTest() {
+//	const a = 1
+//	fmt.Println(math.Sqrt(64))
+//	{
+//		const a = 2
+//		fmt.Println(a)
+//	}
+//}
+
 func constTest() {
 	const a = 1
-	fmt.Println(a)
+	fmt.Println(math.Sqrt(64))
 	{
 		const a = 2
 		fmt.Println(a)
