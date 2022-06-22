@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"math"
-)
+import "fmt"
 
 //var c = 222
 
@@ -35,16 +32,37 @@ import (
 //	}
 //}
 
-func constTest() {
-	const a = 1
-	fmt.Println(math.Sqrt(64))
-	{
-		const a = 2
-		fmt.Println(a)
-	}
+//func constTest() {
+//	const (
+//		FILENAME = 1
+//		b        = 2
+//	)
+//	fmt.Println(math.Sqrt(64))
+//	{
+//		const a = 2
+//		fmt.Println(a)
+//	}
+//}
+
+func enum() {
+	//const (
+	//	lenovo    = 0
+	//	bytedance = 1
+	//	baidu     = 2
+	//	alibaba   = 3
+	//	tencent   = 4
+	//)
+
+	const (
+		js = iota*10 + 1
+		_
+		golang
+		java
+	)
+	fmt.Println(js, golang, java)
 }
 
 func main() {
 	//variable()
-	constTest()
+	enum()
 }
