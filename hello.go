@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	rand "math/rand"
-)
+import "strconv"
 
 //var c = 222
 
@@ -75,23 +72,41 @@ import (
 //	}
 //}
 
-func switchTest() int {
-	var i, result = rand.Intn(100), 1
-	fmt.Println(i)
-	switch {
-	case i > 90:
-		result = 1
-	case i > 80:
-		result = 2
-	case i > 60:
-		result = 3
-	case i > 50:
-		result = 4
+//func switchTest() int {
+//	var i, result = rand.Intn(100), 1
+//	fmt.Println(i)
+//	switch {
+//	case i > 90:
+//		result = 1
+//	case i > 80:
+//		result = 2
+//	case i > 60:
+//		result = 3
+//	case i > 50:
+//		result = 4
+//	}
+//	return result
+//}
+
+//func forTest() int {
+//	sum := 1
+//	for i := 0; i < 10; i++ {
+//		sum += i
+//	}
+//	return sum
+//}
+
+func convertToBinary(n int) string {
+	result := ""
+	for ; n > 0; n /= 2 {
+		lsb := n % 2
+		result = strconv.Itoa(lsb) + result
 	}
 	return result
 }
 
 func main() {
 	//variable()
-	fmt.Println(switchTest())
+	//forTest()
+	convertToBinary(10)
 }
