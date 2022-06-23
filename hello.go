@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"io/ioutil"
+)
 
 //var c = 222
 
@@ -44,25 +47,34 @@ import "fmt"
 //	}
 //}
 
-func enum() {
-	//const (
-	//	lenovo    = 0
-	//	bytedance = 1
-	//	baidu     = 2
-	//	alibaba   = 3
-	//	tencent   = 4
-	//)
+//func enum() {
+//	//const (
+//	//	lenovo    = 0
+//	//	bytedance = 1
+//	//	baidu     = 2
+//	//	alibaba   = 3
+//	//	tencent   = 4
+//	//)
+//
+//	const (
+//		js = iota*10 + 1
+//		_
+//		golang
+//		java
+//	)
+//	fmt.Println(js, golang, java)
+//}
 
-	const (
-		js = iota*10 + 1
-		_
-		golang
-		java
-	)
-	fmt.Println(js, golang, java)
+func ifStatement() {
+	const fileName = "ab.txt"
+	if _, err := ioutil.ReadFile(fileName); err != nil {
+		fmt.Println("get failed")
+	} else {
+		fmt.Println("got it")
+	}
 }
 
 func main() {
 	//variable()
-	enum()
+	ifStatement()
 }
