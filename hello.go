@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
+	rand "math/rand"
 )
 
 //var c = 222
@@ -65,16 +65,33 @@ import (
 //	fmt.Println(js, golang, java)
 //}
 
-func ifStatement() {
-	const fileName = "ab.txt"
-	if _, err := ioutil.ReadFile(fileName); err != nil {
-		fmt.Println("get failed")
-	} else {
-		fmt.Println("got it")
+//func ifStatement() {
+//	const fileName = "ab.txt"
+//	if _, err := ioutil.ReadFile(fileName); err != nil {
+//		fmt.Println("get failed")
+//	}
+//	else {
+//		fmt.Println("got it")
+//	}
+//}
+
+func switchTest() int {
+	var i, result = rand.Intn(100), 1
+	fmt.Println(i)
+	switch {
+	case i > 90:
+		result = 1
+	case i > 80:
+		result = 2
+	case i > 60:
+		result = 3
+	case i > 50:
+		result = 4
 	}
+	return result
 }
 
 func main() {
 	//variable()
-	ifStatement()
+	fmt.Println(switchTest())
 }
