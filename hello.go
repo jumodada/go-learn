@@ -1,6 +1,9 @@
 package main
 
-import "strconv"
+import (
+	"fmt"
+	"strconv"
+)
 
 //var c = 222
 
@@ -108,5 +111,5 @@ func convertToBinary(n int) string {
 func main() {
 	//variable()
 	//forTest()
-	convertToBinary(10)
+	fmt.Println(convertToBinary(10))
 }
