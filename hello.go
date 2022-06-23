@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 	"strconv"
 )
 
@@ -108,8 +110,20 @@ func convertToBinary(n int) string {
 	return result
 }
 
+func printFile(fileName string) {
+	file, err := os.Open(fileName)
+	if err != nil {
+		panic(err)
+	}
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		fmt.Println(scanner.Text())
+	}
+}
+
 func main() {
 	//variable()
 	//forTest()
-	fmt.Println(convertToBinary(10))
+	printFile("a.txt")
+	//fmt.Println(convertToBinary(10))
 }
