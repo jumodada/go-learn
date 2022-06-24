@@ -134,12 +134,32 @@ import "fmt"
 //	}
 //}
 
-func sum(numbers ...int) int {
-	s := 0
-	for i := range numbers {
-		s += numbers[i]
-	}
-	return s
+//func sum(numbers ...int) int {
+//	s := 0
+//	for i := range numbers {
+//		s += numbers[i]
+//	}
+//	return s
+//}
+
+//func pointer() {
+//	var a string = "ha"
+//	var p *string = &a
+//	*p = "oh"
+//	fmt.Println(a)
+//}
+
+//func pointer2(a *int) {
+//	p := a
+//	*p = 2
+//}
+
+func swap(a, b *int) {
+	*b, *a = *a, *b
+}
+
+func swap2(a, b int) (int, int) {
+	return b, a
 }
 
 func main() {
@@ -149,9 +169,17 @@ func main() {
 	//fmt.Println(apply(func(a, b int) int {
 	//	return a + b
 	//}, 3, 2))
-	fmt.Println(sum(1, 2, 3, 4, 5, 6))
+	//fmt.Println(sum(1, 2, 3, 4, 5, 6))
+	//pointer()
 	//var cb = closures()
 	//fmt.Println(cb(2))
 	//fmt.Println(cb(2))
 	//fmt.Println(convertToBinary(10))
+	num1 := 1
+	num2 := 2
+	//pointer2(&a)
+	//swap(&num1, &num2)
+	swap2(num1, num2)
+	fmt.Println(num1, num2)
+
 }
