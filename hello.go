@@ -1,11 +1,6 @@
 package main
 
-import (
-	"bufio"
-	"fmt"
-	"os"
-	"strconv"
-)
+import "fmt"
 
 //var c = 222
 
@@ -101,29 +96,42 @@ import (
 //	return sum
 //}
 
-func convertToBinary(n int) string {
-	result := ""
-	for ; n > 0; n /= 2 {
-		lsb := n % 2
-		result = strconv.Itoa(lsb) + result
-	}
-	return result
-}
+//func convertToBinary(n int) string {
+//	result := ""
+//	for ; n > 0; n /= 2 {
+//		lsb := n % 2
+//		result = strconv.Itoa(lsb) + result
+//	}
+//	return result
+//}
+//
+//func printFile(fileName string) {
+//	file, err := os.Open(fileName)
+//	if err != nil {
+//		panic(err)
+//	}
+//	scanner := bufio.NewScanner(file)
+//	for scanner.Scan() {
+//		fmt.Println(scanner.Text())
+//	}
+//}
 
-func printFile(fileName string) {
-	file, err := os.Open(fileName)
-	if err != nil {
-		panic(err)
-	}
-	scanner := bufio.NewScanner(file)
-	for scanner.Scan() {
-		fmt.Println(scanner.Text())
-	}
+//func function(a, b int) (q, r int) {
+//	q = a / b
+//	r = a % b
+//	return q, r
+//}
+
+func apply(cb func(a, b int) int, a, b int) int {
+	return cb(a, b)
 }
 
 func main() {
 	//variable()
 	//forTest()
-	printFile("a.txt")
+	//fmt.Println(function(10, 2))
+	fmt.Println(apply(func(a, b int) int {
+		return a + b
+	}, 3, 2))
 	//fmt.Println(convertToBinary(10))
 }
