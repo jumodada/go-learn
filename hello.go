@@ -125,13 +125,21 @@ import "fmt"
 //func apply(cb func(a, b int) int, a, b int) int {
 //	return cb(a, b)
 //}
+//
+//func closures() func(num int) int {
+//	var state = 1
+//	return func(num int) int {
+//		state += num + 1
+//		return state
+//	}
+//}
 
-func closures() func(num int) int {
-	var state = 1
-	return func(num int) int {
-		state += num + 1
-		return state
+func sum(numbers ...int) int {
+	s := 0
+	for i := range numbers {
+		s += numbers[i]
 	}
+	return s
 }
 
 func main() {
@@ -141,8 +149,9 @@ func main() {
 	//fmt.Println(apply(func(a, b int) int {
 	//	return a + b
 	//}, 3, 2))
-	var cb = closures()
-	fmt.Println(cb(2))
-	fmt.Println(cb(2))
+	fmt.Println(sum(1, 2, 3, 4, 5, 6))
+	//var cb = closures()
+	//fmt.Println(cb(2))
+	//fmt.Println(cb(2))
 	//fmt.Println(convertToBinary(10))
 }
