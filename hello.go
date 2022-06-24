@@ -122,16 +122,27 @@ import "fmt"
 //	return q, r
 //}
 
-func apply(cb func(a, b int) int, a, b int) int {
-	return cb(a, b)
+//func apply(cb func(a, b int) int, a, b int) int {
+//	return cb(a, b)
+//}
+
+func closures() func(num int) int {
+	var state = 1
+	return func(num int) int {
+		state += num + 1
+		return state
+	}
 }
 
 func main() {
 	//variable()
 	//forTest()
 	//fmt.Println(function(10, 2))
-	fmt.Println(apply(func(a, b int) int {
-		return a + b
-	}, 3, 2))
+	//fmt.Println(apply(func(a, b int) int {
+	//	return a + b
+	//}, 3, 2))
+	var cb = closures()
+	fmt.Println(cb(2))
+	fmt.Println(cb(2))
 	//fmt.Println(convertToBinary(10))
 }
