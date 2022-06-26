@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func main() {
@@ -23,4 +24,5 @@ func main() {
 	//}
 	res := []rune(s)
 	fmt.Println(string(res[1:]))
+	fmt.Println(strings.Trim("  s   ss         1 ", " "))
 }
