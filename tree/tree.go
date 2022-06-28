@@ -2,21 +2,21 @@ package tree
 
 import "fmt"
 
-type TreeNode struct {
+type Node struct {
 	Value       int
-	Left, Right *TreeNode
+	Left, Right *Node
 }
 
-func CreateNode(value int) *TreeNode {
-	return &TreeNode{
+func CreateNode(value int) *Node {
+	return &Node{
 		Value: value,
 	}
 }
 
-func (node TreeNode) Print() {
+func (node Node) Print() {
 	fmt.Println(node.Value)
 }
 
-func (node *TreeNode) SetValue(value int) {
+func (node *Node) SetValue(value int) {
 	node.Value = value
 }
