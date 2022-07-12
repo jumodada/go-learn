@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4919398f-be2d-4de3-a893-00797b0504a0" name="Changes" comment="" />
+    <list default="true" id="4919398f-be2d-4de3-a893-00797b0504a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/downloader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,10 +64,20 @@
       <recent name="$PROJECT_DIR$/tree/entry" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/start" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-learn">
+  <component name="RunManager" selected="Go Build.go build downloader.go">
+    <configuration name="go build downloader.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-learn" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/downloader.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build go-learn (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -101,22 +114,13 @@
       <filePath value="$PROJECT_DIR$/zap-test.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-learn/embedding" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-learn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-learn/embedding" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/embedding/embedding-entry.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build downloader.go" />
         <item itemvalue="Go Build.go build go-learn" />
         <item itemvalue="Go Build.go build go-learn (3)" />
         <item itemvalue="Go Build.go build go-learn (2)" />
         <item itemvalue="Go Build.go build go-learn (1)" />
-        <item itemvalue="Go Build.go build go-learn/embedding" />
       </list>
     </recent_temporary>
   </component>
