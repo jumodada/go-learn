@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-learn/tree"
+	"go-learn/start/tree"
 	"strconv"
 )
 

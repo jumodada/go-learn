@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-learn/tree"
+	"go-learn/start/tree"
 )
 
 type myTreeNode struct {

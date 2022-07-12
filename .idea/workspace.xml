@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4919398f-be2d-4de3-a893-00797b0504a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/downloader.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloader.go" beforeDir="false" afterPath="$PROJECT_DIR$/downloader.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +63,8 @@
       <recent name="$PROJECT_DIR$/tree/entry" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/start" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/start" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build downloader.go">
@@ -136,7 +135,8 @@
     <MESSAGE value="array" />
     <MESSAGE value="struct" />
     <MESSAGE value="import package" />
-    <option name="LAST_COMMIT_MESSAGE" value="import package" />
+    <MESSAGE value="fix mod" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix mod" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
