@@ -4,7 +4,368 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4919398f-be2d-4de3-a893-00797b0504a0" name="Changes" comment="fix mod" />
+    <list default="true" id="4919398f-be2d-4de3-a893-00797b0504a0" name="Changes" comment="fix mod">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/01-Array-Basics/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/02-Create-Our-Own-Array/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/02-Create-Our-Own-Array/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/03-Add-Element-in-Array/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/03-Add-Element-in-Array/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/04-Query-and-Update-Element/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/04-Query-and-Update-Element/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/05-Contain-Find-and-Remove/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/05-Contain-Find-and-Remove/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/06-Generic-Data-Structures/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/06-Generic-Data-Structures/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/06-Generic-Data-Structures/student/student.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/07-Dynamic-Array/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/07-Dynamic-Array/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/09-Amortized-Time-Complexity/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Arrays/09-Amortized-Time-Complexity/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/02-Array-Stack/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/02-Array-Stack/arraystack/arraystack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/02-Array-Stack/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/02-Array-Stack/stack/stack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/solution/solution_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/04-More-about-Leetcode/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/04-More-about-Leetcode/arraystack/arraystack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/04-More-about-Leetcode/solution/Solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/04-More-about-Leetcode/solution/solution_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/04-More-about-Leetcode/stack/stack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue/arrayqueue/arrayqueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/05-Array-Queue/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/06-Loop-Queue/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/06-Loop-Queue/arrayqueue/arrayqueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/06-Loop-Queue/loopqueue/loopqueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/06-Loop-Queue/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/06-Loop-Queue/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/07-Implementation-of-Loop-Queue/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/07-Implementation-of-Loop-Queue/arrayqueue/arrayqueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/07-Implementation-of-Loop-Queue/loopqueue/loopqueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/07-Implementation-of-Loop-Queue/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/07-Implementation-of-Loop-Queue/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/08-Queues-Comparison/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/08-Queues-Comparison/arrayqueue/arrayqueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/08-Queues-Comparison/loopqueue/loopqueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/08-Queues-Comparison/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/08-Queues-Comparison/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/Optional-01-Loop-Queue-without-Wasting-One-Space/Queue/Queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/Optional-01-Loop-Queue-without-Wasting-One-Space/loopqueue/loopqueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/Optional-01-Loop-Queue-without-Wasting-One-Space/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/Optional-02-Loop-Queue-without-Size-Member/loopqueue/loopqueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/Optional-02-Loop-Queue-without-Size-Member/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Stacks-and-Queues/Optional-02-Loop-Queue-without-Size-Member/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/01-Linked-List-Basics/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/02-Add-Elements-in-LinkedList/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/03-DummyHead-in-LinkedList/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/04-Query-and-Update-in-LinkedList/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/04-Query-and-Update-in-LinkedList/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/05-Remove-Element-in-LinkedList/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/05-Remove-Element-in-LinkedList/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/06-Implement-Stack-in-LinkedList/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/06-Implement-Stack-in-LinkedList/arraystack/arraystack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/06-Implement-Stack-in-LinkedList/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/06-Implement-Stack-in-LinkedList/linkedliststack/linkedliststack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/06-Implement-Stack-in-LinkedList/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/06-Implement-Stack-in-LinkedList/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/06-Implement-Stack-in-LinkedList/solution/solution_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/06-Implement-Stack-in-LinkedList/stack/stack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList/arrayqueue/arrayqueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList/linkedlistqueue/linkedlistqueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList/loopqueue/loopqueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-Linked-List/07-Implement-Queue-in-LinkedList/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/01-Linked-List-Problems-in-Leetcode/listnode/listnode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/01-Linked-List-Problems-in-Leetcode/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/01-Linked-List-Problems-in-Leetcode/solution2/solution2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/01-Linked-List-Problems-in-Leetcode/solution3/solution3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/02-Test-Your-LinkedList-Solution/listnode/listnode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/02-Test-Your-LinkedList-Solution/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/02-Test-Your-LinkedList-Solution/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/02-Test-Your-LinkedList-Solution/solution2/solution2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/02-Test-Your-LinkedList-Solution/solution3/solution3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/03-Recursion-Basics/listnode/listnode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/03-Recursion-Basics/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/03-Recursion-Basics/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/03-Recursion-Basics/solution2/solution2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/03-Recursion-Basics/solution3/solution3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/03-Recursion-Basics/sum/sum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/04-LinkedList-and-Recursion/listnode/listnode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/04-LinkedList-and-Recursion/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/04-LinkedList-and-Recursion/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/04-LinkedList-and-Recursion/solution2/solution2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/04-LinkedList-and-Recursion/solution3/solution3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/04-LinkedList-and-Recursion/solution4/solution4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/04-LinkedList-and-Recursion/sum/sum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/06-Debug-Recursive-Solution/listnode/listnode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/06-Debug-Recursive-Solution/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/Optional-01-Recursive-LinkedList/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/Optional-01-Recursive-LinkedList/linkedlistR/linkedlistR.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/Optional-01-Recursive-LinkedList/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Recursion/Optional-01-Recursive-LinkedList/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/02-Binary-Search-Tree-Basics/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/03-Add-Elements-in-BST/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/04-Improved-Add-Elements-in-BST/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/04-Improved-Add-Elements-in-BST/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/05-Search-in-BST/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/06-PreOrder-Traverse-in-BST/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/06-PreOrder-Traverse-in-BST/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/07-InOrder-and-PostOrder-Traverse-in-BST/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/07-InOrder-and-PostOrder-Traverse-in-BST/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/arraystack/arraystack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/10-Level-Traverse-in-BST/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/10-Level-Traverse-in-BST/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/10-Level-Traverse-in-BST/loopqueue/loopqueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/10-Level-Traverse-in-BST/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/11-Remove-Min-and-Max-in-BST/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/11-Remove-Min-and-Max-in-BST/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/12-Remove-Elements-in-BST/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Binary-Search-Tree/12-Remove-Elements-in-BST/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/01-Set-Basics-and-BSTSet/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/01-Set-Basics-and-BSTSet/BSTSet/BSTSet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/01-Set-Basics-and-BSTSet/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/01-Set-Basics-and-BSTSet/set/set.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/02-LinkedListSet/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/02-LinkedListSet/linkedlistset/linkedlistset.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/02-LinkedListSet/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/02-LinkedListSet/set/set.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/03-Time-Complexity-of-Set/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/03-Time-Complexity-of-Set/BSTSet/BSTSet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/03-Time-Complexity-of-Set/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/03-Time-Complexity-of-Set/linkedlistset/linkedlistset.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/03-Time-Complexity-of-Set/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/03-Time-Complexity-of-Set/set/set.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/04-TreeSet-and-Set-Problems-in-Leetcode/BSTSetSolution/BSTSetSolution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/04-TreeSet-and-Set-Problems-in-Leetcode/LinkedListSetSolution/LinkedListSetSolution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/04-TreeSet-and-Set-Problems-in-Leetcode/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/05-Map-Basics/Map/Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/06-LinkedListMap/Map/Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/06-LinkedListMap/linkedlistmap/linkedlistmap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/06-LinkedListMap/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/06-LinkedListMap/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/07-BSTMap/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/07-BSTMap/Map/Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/07-BSTMap/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/08-More-about-Map/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/08-More-about-Map/Map/Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/08-More-about-Map/linkedlistmap/linkedlistmap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/08-More-about-Map/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/09-Leetcode-Problems-about-Map-and-Set/BSTMapSolution350/BSTMapSolution350.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/09-Leetcode-Problems-about-Map-and-Set/BSTSetSolution349/BSTSetSolution349.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/09-Leetcode-Problems-about-Map-and-Set/LinkedListMapSolution350/LinkedListMapSolution350.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/09-Leetcode-Problems-about-Map-and-Set/LinkedListSetSolution349/LinkedListSetSolution349.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/09-Leetcode-Problems-about-Map-and-Set/solution349/solution349.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-Set-and-Map/09-Leetcode-Problems-about-Map-and-Set/solution350/solution350.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/02-Heap-Basics/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/02-Heap-Basics/maxheap/maxheap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/03-Add-and-Sift-Up-in-Heap/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/03-Add-and-Sift-Up-in-Heap/maxheap/maxheap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/04-Extract-and-Sift-Down-in-Heap/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/04-Extract-and-Sift-Down-in-Heap/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/04-Extract-and-Sift-Down-in-Heap/maxheap/maxheap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/04-Extract-and-Sift-Down-in-Heap/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/05-Heapify-and-Replace-in-Heap/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/05-Heapify-and-Replace-in-Heap/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/05-Heapify-and-Replace-in-Heap/maxheap/maxheap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/05-Heapify-and-Replace-in-Heap/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/06-Priority-Queue/PriorityQueue/PriorityQueue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/06-Priority-Queue/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/06-Priority-Queue/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/06-Priority-Queue/maxheap/maxheap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/06-Priority-Queue/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/06-Priority-Queue/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/07-Priority-Queue-Problems-in-Leetcode/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-Heap-and-Priority-Queue/07-Priority-Queue-Problems-in-Leetcode/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/02-Segment-Tree-Basics/segmenttree/segmenttree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/03-Building-Segment-Tree/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/03-Building-Segment-Tree/merger/merger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/03-Building-Segment-Tree/segmenttree/segmenttree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/04-Query-in-Segment-Tree/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/04-Query-in-Segment-Tree/merger/merger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/04-Query-in-Segment-Tree/segmenttree/segmenttree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/merger/merger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/mumarray/mumarray.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/numarray2/numarray2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/numarray3/numarray3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/numarraycomplete/mumarraycomplete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/segmenttree/segmenttree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/06-Update-Single-Element-in-Segment-Tree/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/06-Update-Single-Element-in-Segment-Tree/merger/merger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/06-Update-Single-Element-in-Segment-Tree/numarray/numarray.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/06-Update-Single-Element-in-Segment-Tree/numarraycomplete/numarraycomplete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-Segment-Tree/06-Update-Single-Element-in-Segment-Tree/segmenttree/segmenttree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/02-Trie-Basics/trie/trie.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/03-Searching-in-Trie/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/03-Searching-in-Trie/BSTSet/BSTSet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/03-Searching-in-Trie/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/03-Searching-in-Trie/set/set.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/03-Searching-in-Trie/trie/trie.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/04-Prefix-in-Trie/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/04-Prefix-in-Trie/BSTSet/BSTSet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/04-Prefix-in-Trie/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/04-Prefix-in-Trie/set/set.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/04-Prefix-in-Trie/trie/trie.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/04-Prefix-in-Trie/trie208/trie208.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/05-Trie-and-Pattern-Match/worddictionary.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/06-Trie-and-Map/mapsum.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/08-Trie-Using-HashMap-and-Array/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/08-Trie-Using-HashMap-and-Array/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/08-Trie-Using-HashMap-and-Array/BSTSet/BSTSet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/08-Trie-Using-HashMap-and-Array/Map/Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/08-Trie-Using-HashMap-and-Array/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/08-Trie-Using-HashMap-and-Array/set/set.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/08-Trie-Using-HashMap-and-Array/trie/trie.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/08-Trie-Using-HashMap-and-Array/trie2/trie2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Trie/08-Trie-Using-HashMap-and-Array/trie3/trie3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/01-What-is-UnionFind/UF/UF.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/02-Quick-Find/UF/UF.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/02-Quick-Find/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/02-Quick-Find/linkedlistset/linkedlistset.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/02-Quick-Find/set/set.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/02-Quick-Find/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/02-Quick-Find/unionfind1/unionfind1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/03-Quick-Union/UF/UF.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/03-Quick-Union/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/03-Quick-Union/unionfind1/unionfind1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/03-Quick-Union/unionfind2/unionfind2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/04-Optimized-by-Size/UF/UF.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/04-Optimized-by-Size/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/04-Optimized-by-Size/unionfind1/unionfind1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/04-Optimized-by-Size/unionfind2/unionfind2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/04-Optimized-by-Size/unionfind3/unionfind3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/05-Optimized-by-Rank/UF/UF.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/05-Optimized-by-Rank/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/05-Optimized-by-Rank/unionfind1/unionfind1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/05-Optimized-by-Rank/unionfind2/unionfind2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/05-Optimized-by-Rank/unionfind3/unionfind3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/05-Optimized-by-Rank/unionfind4/unionfind4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/06-Path-Compression/UF/UF.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/06-Path-Compression/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/06-Path-Compression/unionfind1/unionfind1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/06-Path-Compression/unionfind2/unionfind2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/06-Path-Compression/unionfind3/unionfind3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/06-Path-Compression/unionfind4/unionfind4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/06-Path-Compression/unionfind5/unionfind5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/07-More-about-Union-Find/UF/UF.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/07-More-about-Union-Find/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/07-More-about-Union-Find/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/07-More-about-Union-Find/unionfind1/unionfind1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/07-More-about-Union-Find/unionfind2/unionfind2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/07-More-about-Union-Find/unionfind3/unionfind3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/07-More-about-Union-Find/unionfind4/unionfind4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/07-More-about-Union-Find/unionfind5/unionfind5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Union-Find/07-More-about-Union-Find/unionfind6/unionfind6.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/02-Calculating-Balance-Factor/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/02-Calculating-Balance-Factor/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/02-Calculating-Balance-Factor/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/03-Checking-Balancing-and-Binary-Search-Property/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/03-Checking-Balancing-and-Binary-Search-Property/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/04-Rotation-Operations/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/04-Rotation-Operations/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/05-The-Implementation-of-Left-Rotation-and-Right-Rotation/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/05-The-Implementation-of-Left-Rotation-and-Right-Rotation/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/06-LR-and-RL/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/06-LR-and-RL/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/06-LR-and-RL/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/06-LR-and-RL/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/07-Remove-Elements-in-AVL-Tree/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/07-Remove-Elements-in-AVL-Tree/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/07-Remove-Elements-in-AVL-Tree/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/07-Remove-Elements-in-AVL-Tree/solution349/solution349.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/07-Remove-Elements-in-AVL-Tree/solution350/solution350.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/AVLMap/AVLMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/AVLSet/AVLSet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/BST/BST.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/BSTSet/BSTSet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/Map/Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/linkedlistmap/linkedlistmap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/linkedlistset/linkedlistset.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/set/set.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/solution349/solution349.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/solution350/solution350.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/testmapmain/testmapmain.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/testsetmain/testsetmain.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/Map/Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/RBTree/RBTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/Map/Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/RBTree/RBTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/Map/Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/RBTree/RBTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/Map/Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/RBTree/RBTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/Main2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/Main3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/Map/Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/RBTree/RBTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Red-Black-Tree/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/01-Hash-Table-Basics/solution/solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/03-Hash-Function-in-Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/03-Hash-Function-in-Go/student/student.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/05-Hash-Table-Implementation/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/05-Hash-Table-Implementation/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/05-Hash-Table-Implementation/RBTree/RBTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/05-Hash-Table-Implementation/hashtable/hashtable.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/05-Hash-Table-Implementation/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/06-Resizing-in-Hash-Table/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/06-Resizing-in-Hash-Table/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/06-Resizing-in-Hash-Table/RBTree/RBTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/06-Resizing-in-Hash-Table/hashtable/hashtable.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/06-Resizing-in-Hash-Table/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/07-More-About-Resizing-in-Hash-Table/AVLTree/AVLTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/07-More-About-Resizing-in-Hash-Table/BSTMap/BSTMap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/07-More-About-Resizing-in-Hash-Table/HashTable/HashTable.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/07-More-About-Resizing-in-Hash-Table/RBTree/RBTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Hash-Table/07-More-About-Resizing-in-Hash-Table/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a-tale-of-two-cities.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overview/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overview/binarysearchtree/binarysearchtree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overview/interfaces/array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overview/interfaces/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overview/interfaces/stack/stack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overview/linkedlist/ispalindrome/ispalindrome.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overview/linkedlist/linkedlist/linkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overview/linkedlist/loopLinkedlist/looplinkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overview/linkedlist/twowaylinkedlist/twowaylinkedlist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/overview/maxheap/maxheap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start/duck-typing.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/compare.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,27 +391,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go Application",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "configurable..is.expanded": "false",
-    "configurable.GoLibrariesConfigurable.is.expanded": "true",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "C:/Users/wuky3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
+    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wuky3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
@@ -66,7 +428,7 @@
       <recent name="$PROJECT_DIR$/start" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build downloader.go">
+  <component name="RunManager" selected="Go Build.go build go-learn/start">
     <configuration name="go build downloader.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -76,22 +438,12 @@
       <filePath value="$PROJECT_DIR$/downloader.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-learn (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build entry.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="go-learn" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/map.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-learn (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-learn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go-learn" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/array.go" />
+      <filePath value="$PROJECT_DIR$/start/entry/entry.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-learn (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -112,19 +464,39 @@
       <filePath value="$PROJECT_DIR$/zap-test.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-learn/start" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-learn/start" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/start/duck-typing.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-learn/start" />
+        <item itemvalue="Go Build.go build entry.go" />
         <item itemvalue="Go Build.go build downloader.go" />
         <item itemvalue="Go Build.go build go-learn" />
         <item itemvalue="Go Build.go build go-learn (3)" />
-        <item itemvalue="Go Build.go build go-learn (2)" />
-        <item itemvalue="Go Build.go build go-learn (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project init" />
