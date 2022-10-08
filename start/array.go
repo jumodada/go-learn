@@ -20,11 +20,9 @@ func main() {
 	//var grid [3][4]int
 	//arr3 := [...]int{1, 2, 3, 4, 5, 6, 7, 8, 9}
 	//fmt.Println(arr2, arr1, arr3)
-	//fmt.Println(grid)
 	//for i := 0; i < len(arr3); i++ {
 	//	fmt.Println(arr3[i])
 	//}
-
 	//for _, v := range arr3 {
 	//	fmt.Println(v)
 	//}

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4919398f-be2d-4de3-a893-00797b0504a0" name="Changes" comment="fix mod" />
+    <list default="true" id="4919398f-be2d-4de3-a893-00797b0504a0" name="Changes" comment="fix mod">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goroutine.go" beforeDir="false" afterPath="$PROJECT_DIR$/goroutine.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +20,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://C:/Program Files/Go" />
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.19.1" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -45,10 +48,11 @@
     "configurable.GoLibrariesConfigurable.is.expanded": "true",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "C:/Users/wuky3",
+    "last_opened_file_path": "E:/code/go/go-learn",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "go.sdk",
+    "settings.editor.splitter.proportion": "0.31364563"
   }
 }]]></component>
   <component name="Push.Settings">
@@ -66,7 +70,7 @@
       <recent name="$PROJECT_DIR$/start" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build downloader.go">
+  <component name="RunManager" selected="Go Build.go build go-learn (1)">
     <configuration name="go build downloader.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -82,16 +86,7 @@
       <kind value="FILE" />
       <package value="go-learn" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/map.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-learn (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-learn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go-learn" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/array.go" />
+      <filePath value="$PROJECT_DIR$/goroutine.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-learn (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -112,19 +107,39 @@
       <filePath value="$PROJECT_DIR$/zap-test.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-learn/start/embedding" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-learn/start/embedding" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/start/embedding/embedding-entry.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-learn (1)" />
+        <item itemvalue="Go Build.go build go-learn/start/embedding" />
         <item itemvalue="Go Build.go build downloader.go" />
         <item itemvalue="Go Build.go build go-learn" />
         <item itemvalue="Go Build.go build go-learn (3)" />
-        <item itemvalue="Go Build.go build go-learn (2)" />
-        <item itemvalue="Go Build.go build go-learn (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project init" />
